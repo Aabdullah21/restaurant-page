@@ -9,6 +9,10 @@ body {
     height: 100vh;
 }
 
+#content {
+    height: 100vh;
+}
+
 #header {
     background-color: #064e3b;
     padding: 25px;
@@ -19,4 +23,29 @@ body {
     justify-content: center;
     gap: 30px;
     font-size: 24px;
+    height: 10vh;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #10b981;
+}
+
+#home-content {
+    background: url(./home.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    width: 400px;
+    text-align: center;
+    font-weight: 900;
+    color: #d4d4d4;
 }
