@@ -1,4 +1,10 @@
+function appendToHome() {
+    const home = createHomeDiv();
+    const description = restaurantDescription();
+    home.appendChild(description);
 
+    return home;
+}
 
 function createHomeDiv() {
     const home = document.createElement('div');
