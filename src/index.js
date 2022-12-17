@@ -1,4 +1,16 @@
 import './style.css'
+import home from './home';
+
+const homeContent = home();
+
+(function startWebsite() {
+    const body = document.querySelector('body');
+    const content = createContentDiv();
+    const header = createHeader();
+    content.appendChild(header);
+    content.appendChild(homeContent);
+    body.appendChild(content);
+})();
 
 function createContentDiv() {
     const content = document.createElement('div');
@@ -16,7 +28,7 @@ function createHeader() {
 
     const menuTab = document.createElement('li');
     menuTab.classList.add('menu-tab');
-    menuTab.textContent = Menu;
+    menuTab.textContent = 'Menu';
 
     const contactTab = document.createElement('li');
     contactTab.classList.add('contact-tab');
