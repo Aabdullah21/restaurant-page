@@ -1,4 +1,4 @@
-function appendToHome() {
+export default function appendToHome() {
     const home = createHomeDiv();
     const description = restaurantDescription();
     home.appendChild(description);
