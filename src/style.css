@@ -49,3 +49,33 @@ li:hover {
     font-weight: 900;
     color: #d4d4d4;
 }
+
+#menu-content {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #73AC96;
+}
+
+.container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+
+}
+
+.card {
+    padding: 15px;
+
+    background-color: white;
+    border-left: 10px solid #0E563B;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
