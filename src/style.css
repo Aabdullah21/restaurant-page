@@ -79,3 +79,19 @@ li:hover {
     justify-content: space-between;
     margin-bottom: 15px;
 }
+
+#contact-content {
+    background-color: #75AF96;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+#contact-content p {
+    color: #003A21;
+    font-weight: bold;
+    font-size: 32px;
+}
