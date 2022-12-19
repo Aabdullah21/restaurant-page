@@ -1,14 +1,18 @@
 import './style.css'
 import home from './home';
 import menu from './menu';
+import contact from './contact';
+
 const homeContent = home();
 const menuContent = menu();
+const contactContent = contact();
+
 (function startWebsite() {
     const body = document.querySelector('body');
     const content = createContentDiv();
     const header = createHeader();
     content.appendChild(header);
-    content.appendChild(menuContent);
+    content.appendChild(homeContent);
     body.appendChild(content);
 })();
 
