@@ -56,7 +56,7 @@ export default function appendToMenu() {
             </div>
             <div class="card">
                 <div class="info">
-                    <h2>Halal hampburger</h2>
+                    <h2>Halal hamburger</h2>
                     <h2>3.99$</h2>
                 </div>
                 <hr />
