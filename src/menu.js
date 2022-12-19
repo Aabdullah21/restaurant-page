@@ -11,7 +11,7 @@ export default function appendToMenu() {
             <div class="card">
                 <div class="info">
                     <h2>Shakshuka</h2>
-                    <h2>18.99$</h2>
+                    <h2>3.99$</h2>
 
                 </div>
                 <hr />
@@ -20,8 +20,8 @@ export default function appendToMenu() {
             </div>
             <div class="card">
                 <div class="info">
-                    <h2>Shakshuka</h2>
-                    <h2>18.99$</h2>
+                    <h2>Kabsa</h2>
+                    <h2>9.99$</h2>
                 </div>
                 <hr />
                 <p>
@@ -29,8 +29,8 @@ export default function appendToMenu() {
             </div>
             <div class="card">
                 <div class="info">
-                    <h2>Shakshuka</h2>
-                    <h2>18.99$</h2>
+                    <h2>Shawarma</h2>
+                    <h2>2.99$</h2>
                 </div>
                 <hr />
                 <p>
@@ -38,8 +38,8 @@ export default function appendToMenu() {
             </div>
             <div class="card">
                 <div class="info">
-                    <h2>Shakshuka</h2>
-                    <h2>18.99$</h2>
+                    <h2>Kebab</h2>
+                    <h2>4.99$</h2>
                 </div>
                 <hr />
                 <p>
@@ -47,8 +47,8 @@ export default function appendToMenu() {
             </div>
             <div class="card">
                 <div class="info">
-                    <h2>Shakshuka</h2>
-                    <h2>18.99$</h2>
+                    <h2>Hummus</h2>
+                    <h2>1.99$</h2>
                 </div>
                 <hr />
                 <p>
@@ -56,8 +56,8 @@ export default function appendToMenu() {
             </div>
             <div class="card">
                 <div class="info">
-                    <h2>Shakshuka</h2>
-                    <h2>18.99$</h2>
+                    <h2>Halal hampburger</h2>
+                    <h2>3.99$</h2>
                 </div>
                 <hr />
                 <p>
